@@ -1,3 +1,5 @@
+import Bundle from "../assets/bundle"
+
 function Main(){
   return(  <>
       <div className="main-panel">
@@ -290,7 +292,8 @@ function Main(){
             </div>
           </footer>
          
-        </div>
+    </div>
+    <Bundle/>
     </>
   )
 }
