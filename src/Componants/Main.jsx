@@ -4,105 +4,6 @@ function Main(){
   return(  <>
       <div className="main-panel">
           <div className="content-wrapper">
-            <div className="row purchace-popup">
-              <div className="col-12 stretch-card grid-margin">
-                <div className="card card-secondary">
-                  <span className="card-body d-lg-flex align-items-center">
-                    <p className="mb-lg-0">Get tons of UI components, Plugins, multiple layouts, 20+ sample pages, and more! </p>
-                    <a href="https://www.bootstrapdash.com/product/stellar-admin/?utm_source=organic&utm_medium=banner&utm_campaign=free-preview" target="_blank" className="btn btn-warning purchase-button btn-sm my-1 my-sm-0 ml-auto">Upgrade To Pro</a>
-                    <button className="close popup-dismiss ml-2">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-4 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body">
-                    <h4 className="card-title">Sessions by channel</h4>
-                    <div className="aligner-wrapper">
-                      <canvas id="sessionsDoughnutChart" height="210"></canvas>
-                      <div className="wrapper d-flex flex-column justify-content-center absolute absolute-center">
-                        <h2 className="text-center mb-0 font-weight-bold">8.234</h2>
-                        <small className="d-block text-center text-muted  font-weight-semibold mb-0">Total Leads</small>
-                      </div>
-                    </div>
-                    <div className="wrapper mt-4 d-flex flex-wrap align-items-cente">
-                      <div className="d-flex">
-                        <span className="square-indicator bg-danger ml-2"></span>
-                        <p className="mb-0 ml-2">Assigned</p>
-                      </div>
-                      <div className="d-flex">
-                        <span className="square-indicator bg-success ml-2"></span>
-                        <p className="mb-0 ml-2">Not Assigned</p>
-                      </div>
-                      <div className="d-flex">
-                        <span className="square-indicator bg-warning ml-2"></span>
-                        <p className="mb-0 ml-2">Reassigned</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-8 grid-margin stretch-card">
-                <div className="card">
-                  <div className="card-body performane-indicator-card">
-                    <div className="d-sm-flex">
-                      <h4 className="card-title flex-shrink-1">Performance Indicator</h4>
-                      <p className="m-sm-0 ml-sm-auto flex-shrink-0">
-                        <span className="data-time-range ml-0">7d</span>
-                        <span className="data-time-range active">2w</span>
-                        <span className="data-time-range">1m</span>
-                        <span className="data-time-range">3m</span>
-                        <span className="data-time-range">6m</span>
-                      </p>
-                    </div>
-                    <div className="d-sm-flex flex-wrap">
-                      <div className="d-flex align-items-center">
-                        <span className="dot-indicator bg-primary ml-2"></span>
-                        <p className="mb-0 ml-2 text-muted font-weight-semibold">Complaints (2098)</p>
-                      </div>
-                      <div className="d-flex align-items-center">
-                        <span className="dot-indicator bg-info ml-2"></span>
-                        <p className="mb-0 ml-2 text-muted font-weight-semibold"> Task Done (1123)</p>
-                      </div>
-                      <div className="d-flex align-items-center">
-                        <span className="dot-indicator bg-danger ml-2"></span>
-                        <p className="mb-0 ml-2 text-muted font-weight-semibold">Attends (876)</p>
-                      </div>
-                    </div>
-                    <div id="performance-indicator-chart" className="ct-chart mt-4"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="row quick-action-toolbar">
-              <div className="col-md-12 grid-margin">
-                <div className="card">
-                  <div className="card-header d-block d-md-flex">
-                    <h5 className="mb-0">Quick Actions</h5>
-                    <p className="ml-auto mb-0">How are your active users trending overtime?<i className="icon-bulb"></i></p>
-                  </div>
-                  <div className="d-md-flex row m-0 quick-action-btns" role="group" aria-label="Quick action buttons">
-                    <div className="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
-                      <button type="button" className="btn px-0"> <i className="icon-user mr-2"></i> Add Client</button>
-                    </div>
-                    <div className="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
-                      <button type="button" className="btn px-0"><i className="icon-docs mr-2"></i> Create Quote</button>
-                    </div>
-                    <div className="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
-                      <button type="button" className="btn px-0"><i className="icon-folder mr-2"></i> Enter Payment</button>
-                    </div>
-                    <div className="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
-                      <button type="button" className="btn px-0"><i className="icon-book-open mr-2"></i>Create Invoice</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="row">
               <div className="col-md-12 grid-margin">
                 <div className="card">
@@ -293,7 +194,6 @@ function Main(){
           </footer>
          
     </div>
-    <Bundle/>
     </>
   )
 }
